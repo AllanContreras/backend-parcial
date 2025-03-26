@@ -18,3 +18,27 @@ ACA YA TENEMOS LAS CLASES QUE VAMOS A USAR YA NOS FALTARIA LA DE TESTS QUE LA AG
 ## NUESTROS TESTS
 ![image](https://github.com/user-attachments/assets/2a0c756b-539d-446c-9ea4-d98870471b65)
 
+# Backend - Sistema de Pagos
+
+Este es el backend del sistema de pagos, encargado de manejar la lógica de negocio y la base de datos. Expone una API REST que permite la gestión de usuarios, transacciones y reportes.
+
+##  Arquitectura
+
+El backend sigue una arquitectura **MVC (Modelo-Vista-Controlador)**, donde:
+
+- **Modelo:** Define la estructura de los datos y las relaciones en la base de datos.
+- **Controlador:** Gestiona las solicitudes HTTP y coordina la lógica del negocio.
+- **Vista (API):** Expone endpoints REST para la comunicación con el frontend.
+
+El servidor está construido con **Node.js y Express**, y utiliza **MongoDB** como base de datos.
+
+## Tecnologías usadas
+
+- **Node.js** - Entorno de ejecución de JavaScript.
+- **Express.js** - Framework para la creación de APIs.
+- **MongoDB** - Base de datos NoSQL para almacenar transacciones y usuarios.
+- **Mongoose** - ODM para gestionar MongoDB en Node.js.
+- **JWT (JSON Web Token)** - Para autenticación y seguridad.
+- **Dotenv** - Manejo de variables de entorno.
+
+
